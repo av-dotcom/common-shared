@@ -4,7 +4,6 @@ import jakarta.persistence.*;
 
 @Entity
 public class Movement {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
